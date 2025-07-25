@@ -473,11 +473,11 @@ h6 {
 }
 
 .line-button {
-  background-color: #3b5998; /* สีเขียวของ LINE */
+  background-color: #1877F2; /* สีเขียวของ LINE */
 }
 
 .facebook-button {
-  background-color: #3b5998; /* สีน้ำเงิน Facebook */
+  background-color: #1877F2; /* สีน้ำเงิน Facebook */
 }
 
 .float-label {
@@ -1695,3 +1695,172 @@ h4 {
 #navmenu ul li a:hover {
   transform: scale(1.1);
 }
+
+.social-links a.tiktok i.bi-tiktok {
+  color: #000000; /* TikTok สีดำ (หรือใส่สีแดงเพิ่มได้) */
+}
+
+.social-links a.tiktok i.bi-facebook {
+  color: #1877F2; /* Facebook สีน้ำเงิน */
+}
+
+.social-links a.tiktok i.bi-instagram {
+  /* Instagram ไล่สี Gradient ยาก ถ้าใช้สีคงที่ลองสีชมพูอมม่วง */
+  color: #C13584;
+}
+
+.social-links a.tiktok i.bi-youtube {
+  color: #FF0000; /* YouTube สีแดง */
+}
+
+.swiper-slide1{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* รีวิว */
+.testimonial-item {
+  width: 280px;          /* กำหนดความกว้างกล่อง */
+  height: 280px;         /* กำหนดความสูงกล่อง เท่ากับกว้างเพื่อให้เป็นสี่เหลี่ยมจัตุรัส */
+  margin: 0 auto;
+  padding: 0;            /* ไม่มี padding */
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 10px;   /* ถ้าอยากให้กล่องมีมุมมน */
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;      /* ซ่อนส่วนเกินของรูป */
+}
+
+.testimonial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* ตัดภาพพอดีกับกล่องโดยไม่เสียอัตราส่วน */
+  border-radius: 0;      /* ลบมุมมนของรูป */
+  display: block;
+}
+
+
+
+
+.testimonial-item p {
+  font-size: 0.85rem;        /* ลดขนาดข้อความ */
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.testimonial-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #222;
+}
+
+.testimonial-item h4 {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;   /* จัดกล่องให้อยู่กลางสไลด์ */
+}
+
+.swiper-wrapper {
+  gap: 12px;                 /* ระยะห่างระหว่างสไลด์ */
+}
+
+
+
+
+.typing-text {
+  font-family: 'prompt', sans-serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+  
+  /* กรอบแบบ Google Search */
+  border: 2px solid #dfe1e5;
+  padding: 12px 20px;
+  box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+  
+  /* กำหนดความกว้างตายตัว */
+  width: 18ch;          /* กว้างพอสำหรับข้อความ "ครูหนาม Spine . . ." */
+  max-width: 90vw;      /* กันกรณีจอเล็กมาก */
+  
+  white-space: nowrap;
+  overflow: hidden;
+  
+  position: relative;  /* สำคัญ ต้องมีเพื่อ ::after ทำงาน */
+}
+
+/* เคอร์เซอร์กระพริบแบบวิ่งตามข้อความ */
+.typing-text::after {
+  content: "";
+  position: absolute;
+  top: 12px; /* เท่ากับ padding-top */
+  left: calc(20px + var(--chars, 0) * 1ch); /* padding-left + จำนวนตัวอักษร x 1ch */
+  width: 2px;
+  height: calc(100% - 24px); /* ความสูง = ความสูง element ลบ padding บน+ล่าง */
+  background-color: #333;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* หลอดโหลดเดิมของคุณ */
+#loader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Prompt', sans-serif;
+  z-index: 9999;
+}
+
+.loading-bar {
+  width: 60%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.loading-bar .progress {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  animation: loading 2s linear forwards;
+  border-radius: 4px;
+}
+
+@keyframes loading {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+
+.reviewend{
+  text-align: center;
+  color: rgb(241, 103, 126);
+  font-size: 20px;
+}
+
+
+
+

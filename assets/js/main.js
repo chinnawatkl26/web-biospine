@@ -233,5 +233,35 @@
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const text = "ครูหนาม Spine . . .";
+  const typingText = document.getElementById("typingText");
+  let i = 0;
+
+  function typeChar() {
+    if (i <= text.length) {
+      typingText.textContent = text.substring(0, i);
+
+      // ปรับตำแหน่งเคอร์เซอร์ ::after ด้วย CSS variable --chars
+      typingText.style.setProperty("--chars", i);
+
+      i++;
+      setTimeout(typeChar, 90); // ความเร็วพิมพ์ช้า ๆ (150 ms ต่ออักษร)
+    }
+  }
+
+  typeChar();
+
+  setTimeout(() => {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  }, 3000); // เวลารวม (โหลด+พิมพ์) ปรับตามต้องการ
+});
+
+
+
+
+
+
 })();
 

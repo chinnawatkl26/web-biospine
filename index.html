@@ -12,6 +12,7 @@
   <link href="assets/img/pro2.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -23,6 +24,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -45,9 +47,19 @@
   ======================================================== -->
 </head>
 
+
 <body class="index-page">
 
-  <header id="header" class="header white-background d-flex flex-column" style="box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4); color: #000000;">
+  <div id="loader">
+    <div class="typing-text" id="typingText"></div>
+    <div class="loading-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+
+  <header id="header" class="header white-background d-flex flex-column"
+    style="box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4); color: #000000;">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
@@ -67,8 +79,14 @@
       <a href="https://www.facebook.com/AlizBiotutor" class="tiktok" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-facebook"></i>
       </a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-youtube"></i></a>
+      <a href="https://www.instagram.com/krunam.spine?igsh=MXB3NWY2bzhnM2Nrdg==" class="tiktok" target="_blank"
+        rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      </a>
+      <a href="https://www.youtube.com/@sarochaeiam1910" class="tiktok" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-youtube"></i>
+      </a>
     </div>
 
     <nav id="navmenu" class="navmenu">
@@ -79,15 +97,6 @@
         <li><a href="#promotion"><i class="bi bi-gift navicon"></i> โปรโมชั่น</a></li>
         <li><a href="#services"><i class="bi bi-question-circle navicon"></i> รายละเอียดการสั่งซื้อ</a></li>
         <li><a href="#testimonials"><i class="bi bi-hand-thumbs-up navicon"></i> รีวิวทั้งหมด</a></li>
-        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>คอร์สเรียน</span> <i
-              class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">ปรับพื้นฐาน ม.ต้น</a></li>
-            <li><a href="#">ปรับพื้นฐาน ม.ปลาย</a></li>
-            <li><a href="#">รวมคอร์สต่างๆ</a></li>
-            <li><a href="#">โปรโมชั่น</a></li>
-          </ul>
-        </li> -->
         <li><a href="#support"><i class="bi bi-telephone navicon"></i> ช่องทางติดต่อ</a></li>
       </ul>
     </nav>
@@ -166,30 +175,40 @@
         <div class="row gy-4">
 
           <div class="col-lg-3 col-md-6">
-            <a href="" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://www.tiktok.com/@biospine" target="_blank" style="text-decoration: none; color: inherit;">
               <div class="stats-item">
-                <i class="bi bi-tiktok"></i>
-                <span class="follower-count">65.8k</span>
+                <i class="bi bi-tiktok" style="color: #010101;"></i>
+                <span class="follower-count">67k</span>
                 <p><strong>ผู้ติดตาม</strong><br> <span>Biospine By ครูหนาม</span></p>
-              </div>
-            </a>
-          </div><!-- End Stats Item -->
-
-
-          <div class="col-lg-3 col-md-6">
-            <a href="" target="_blank" style="text-decoration: none; color: inherit;">
-              <div class="stats-item">
-                <i class="bi bi-tiktok"></i>
-                <span class="follower-count">38k</span>
-                <p><strong>ผู้ติดตาม</strong><br> <span>Sci By ครูหนาม</span></p>
               </div>
             </a>
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <a href="" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://www.tiktok.com/@scispine" target="_blank" style="text-decoration: none; color: inherit;">
               <div class="stats-item">
-                <i class="bi bi-facebook"></i>
+                <i class="bi bi-tiktok" style="color: #010101;"></i>
+                <span class="follower-count">41k</span>
+                <p><strong>ผู้ติดตาม</strong><br> <span>Scispine By ครูหนาม</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.tiktok.com/@.scispine" target="_blank" style="text-decoration: none; color: inherit;">
+              <div class="stats-item">
+                <i class="bi bi-tiktok" style="color: #010101;"></i>
+                <span class="follower-count">5k</span>
+                <p><strong>ผู้ติดตาม</strong><br> <span>.scispine ครูหนามติววิทย์ประถม</span></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.facebook.com/AlizBiotutor" target="_blank"
+              style="text-decoration: none; color: inherit;">
+              <div class="stats-item">
+                <i class="bi bi-facebook" style="color: #1877F2;"></i>
                 <span class="follower-count">10k</span>
                 <p><strong>ผู้ติดตามเพจ</strong><br> <span>ครูหนาม BioSpine</span></p>
               </div>
@@ -197,708 +216,681 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <a href="" target="_blank" style="text-decoration: none; color: inherit;">
+            <a href="https://www.facebook.com/profile.php?id=61568300747966" target="_blank"
+              style="text-decoration: none; color: inherit;">
               <div class="stats-item">
-                <i class="bi bi-facebook"></i>
-                <span class="follower-count">387</span>
+                <i class="bi bi-facebook" style="color: #1877F2;"></i>
+                <span class="follower-count">400</span>
                 <p><strong>ผู้ติดตามเพจ</strong><br> <span>ครูหนาม SciSpine</span></p>
               </div>
             </a>
           </div>
 
-          <!-- /Stats Section -->
-          <section id="stats" class="stats section">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-              <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.youtube.com/@sarochaeiam1910" target="_blank"
+              style="text-decoration: none; color: inherit;">
+              <div class="stats-item">
+                <i class="bi bi-youtube" style="color: #FF0000;"></i>
+                <span class="follower-count">1.8k</span>
+                <p><strong>ผู้ติดตาม</strong><br> <span>ครูหนาม Spine</span></p>
+              </div>
+            </a>
+          </div>
 
-                <div class="col-lg-3 col-md-6">
-                  <a href="" target="_blank" style="text-decoration: none; color: inherit;">
-                    <div class="stats-item">
-                      <i class="bi bi-youtube"></i>
-                      <span class="follower-count">387</span>
-                      <p><strong>ผู้ติดตามเพจ</strong><br> <span>ครูหนาม SciSpine</span></p>
-                    </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="https://www.instagram.com/krunam.spine?igsh=MXB3NWY2bzhnM2Nrdg==" target="_blank"
+              style="text-decoration: none; color: inherit;">
+              <div class="stats-item">
+                <i class="bi bi-instagram"
+                  style="background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                <span class="follower-count">700</span>
+                <p><strong>ผู้ติดตาม</strong><br> <span>krunam.spine</span></p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>คอร์สเรียนทั้งหมด</h2>
+        <p class="shop1">" เรียนอย่างเข้าใจไม่ใช่แค่ท่องจำ แล้วจะรักการเรียนไปเอง "</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">คอร์สเรียนทั้งหมด</li>
+            <li data-filter=".filter-m1">ปรับพื้นฐาน ม.ต้น</li>
+            <li data-filter=".filter-m4">ปรับพื้นฐาน ม.ปลาย</li>
+            <li data-filter=".filter-all">คอร์สติวตะลุยโจทย์</li>
+            <li data-filter="">คอร์สเรียนประถม</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/61-64.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สอวน ปี61/64</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿1,490
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿999</span>
+                  </p>
+
+                  <!-- เอา icon zoom ออก -->
+                  <a href="61-64.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/66.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สอวน ปี66</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="66.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-                <div class="col-lg-3 col-md-6">
-                  <a href="" target="_blank" style="text-decoration: none; color: inherit;">
-                    <div class="stats-item">
-                      <i class="bi bi-instagram"></i>
-                      <span class="follower-count">387</span>
-                      <p><strong>ผู้ติดตามเพจ</strong><br> <span>ครูหนาม SciSpine</span></p>
-                    </div>
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/67.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สอวน ปี67</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="67.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
                   </a>
                 </div>
-
               </div>
-            </div>
-          </section>
+            </div><!-- End Portfolio Item -->
 
-
-
-          <!-- Portfolio Section -->
-          <section id="portfolio" class="portfolio section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-              <h2>คอร์สเรียนทั้งหมด</h2>
-              <p class="shop1">" เรียนอย่างเข้าใจไม่ใช่แค่ท่องจำ แล้วจะรักการเรียนไปเอง "</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-              <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                  <li data-filter="*" class="filter-active">คอร์สเรียนทั้งหมด</li>
-                  <li data-filter=".filter-m1">ปรับพื้นฐาน ม.ต้น</li>
-                  <li data-filter=".filter-m4">ปรับพื้นฐาน ม.ปลาย</li>
-                  <li data-filter=".filter-all">คอร์สติวตะลุยโจทย์</li>
-                  <li data-filter="">คอร์สเรียนประถม</li>
-                </ul>
-
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/61-64.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สอวน ปี61/64</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿1,490
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿999</span>
-                        </p>
-
-                        <!-- เอา icon zoom ออก -->
-                        <a href="61-64.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/66.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สอวน ปี66</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="66.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/67.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สอวน ปี67</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="67.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/a-levelbio.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>A-Level ชีววิทยา</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="alevelbio.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/a-levelsci.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>A-Level วิทยาศาสตร์ประยุกต์</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="alevelsci.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/netsat65.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>Netsat ปี65</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="netsat65.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/netsat.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>Netsat ปี67</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="netsat67.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/biocontest.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>biocontest</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="biocontest.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/o-net.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>O-NET ม.3</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿259</span>
-                        </p>
-                        <a href="onetm3.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/m4t.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.4 ติวติดเตรียม</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m4t.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/m1test.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สอบเข้า ม.1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="m1test.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/tc.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สอบครูผู้ช่วย</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿6,989
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿4,189</span>
-                        </p>
-                        <a href="tc.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/sws.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>สวช.</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="sws.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/ijso.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>IJSO</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿599
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
-                        </p>
-                        <a href="ijso.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/1-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.1 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m1-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/1-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.1 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m1-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/2-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.2 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m2-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/2-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.2 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m2-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/3-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.3 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m3-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/3-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.3 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m3-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/4-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.4 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m4-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/4-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.4 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m4-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/5-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.5 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m5-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/5-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.5 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m5-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/6-1.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.6 เทอม 1</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m6-1.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                  <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
-                    <div class="portfolio-content h-100">
-                      <img src="assets/img/portfolio/6-2.png" class="img-fluid" alt="">
-                      <div class="portfolio-info">
-                        <h4>ม.6 เทอม 2</h4>
-                        <p>
-                          <span
-                            style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
-                            ฿999
-                          </span>
-                          <span
-                            style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
-                        </p>
-                        <a href="m6-2.html" title="More Details" class="icon-center">
-                          <i class="bi bi-cart-plus"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div><!-- End Portfolio Item -->
-
-
-                </div><!-- End Portfolio Container -->
-
-              </div>
-
-            </div>
-            <section id="promotion" class="promotion section light-background">
-
-              <!-- Section Title -->
-              <div class="container section-title" data-aos="fade-up">
-                <h2>โปรโมชั่นแบบเหมาๆ คุ้มๆ!</h2>
-                <p class="shop1">จ่ายครั้งเดียว ใช้ได้ตลอดชีพ ไม่ต้องห่วงเรื่องหมดอายุ! 🔥
-                  เหมาทั้งคอร์สแบบจัดเต็ม เรียนได้ไม่อั้น ไม่จำกัดเวลาเรียน คุ้มกว่านี้ไม่มีอีกแล้ว!</p>
-              </div><!-- End Section Title -->
-
-              <div class="container">
-
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                  <ul class="promotion-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">ทั้งหมด</li>
-                  </ul><!-- End Promotion Filters -->
-
-                  <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-app">
-                      <div class="promotion-content h-100">
-                        <img src="assets/img/portfolio/promotion/1.png" class="img-1" alt="">
-                        <div class="promotion-info">
-                          <h4>1</h4>
-                          <p>฿399</p>
-                          <a href="61-64.html" title="More Details" class="icon-center">
-                            <i class="bi bi-cart-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div><!-- End Promotion Item -->
-
-                    <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-product">
-                      <div class="promotion-content h-100">
-                        <img src="assets/img/portfolio/promotion/2.png" class="img-1" alt="">
-                        <div class="promotion-info">
-                          <h4>2</h4>
-                          <p>฿259</p>
-                          <a href="61-64.html" title="More Details" class="icon-center">
-                            <i class="bi bi-cart-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div><!-- End Promotion Item -->
-
-                    <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-branding">
-                      <div class="promotion-content h-100">
-                        <img src="assets/img/portfolio/promotion/3.png" class="img-1" alt="">
-                        <div class="promotion-info">
-                          <h4>3</h4>
-                          <p>฿259</p>
-                          <a href="61-64.html" title="More Details" class="icon-center">
-                            <i class="bi bi-cart-plus"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div><!-- End Promotion Item -->
-
-                  </div><!-- End Promotion Container -->
-
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/a-levelbio.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>A-Level ชีววิทยา</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="alevelbio.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
                 </div>
-
               </div>
-            </section>
+            </div><!-- End Portfolio Item -->
 
-            <section id="services" class="services section">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/a-levelsci.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>A-Level วิทยาศาสตร์ประยุกต์</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="alevelsci.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-              <!-- Section Title -->
-              <div class="container section-title" data-aos="fade-up">
-                <h2>สมัครเรียนได้อะไรบ้าง ?</h2>
-                <p class="shop1">สอนเนื้อหากระชับ ใช้ภาษาเข้าใจง่าย
-                  สามารถนำองค์ความรู้ไปประยุกต์ใช้ในการเรียนการสอบได้จริง !
-                  ได้รับทั้ง VDO การสอนและไฟล์ PDF สามารถนำไปทบทวนซ้ำได้ตลอดชีวิต ไม่มีวันหมดอายุคอร์ส เรียนจบ
-                  มั่นใจได้ว่าความรู้แน่น พร้อมนำไปต่อยอดทันที!</p>
-              </div><!-- End Section Title -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/netsat65.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Netsat ปี65</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="netsat65.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-              <div class="container">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/netsat.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Netsat ปี67</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="netsat67.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/biocontest.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>biocontest</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="biocontest.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/o-net.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>O-NET ม.3</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿259</span>
+                  </p>
+                  <a href="onetm3.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/m4t.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.4 ติวติดเตรียม</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m4t.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/m1test.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สอบเข้า ม.1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="m1test.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/tc.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สอบครูผู้ช่วย</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿6,989
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿4,189</span>
+                  </p>
+                  <a href="tc.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sws.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>สวช.</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="sws.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-                <div class="row gy-4">
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-all">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/ijso.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>IJSO</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿599
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿399</span>
+                  </p>
+                  <a href="ijso.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-                  <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon flex-shrink-0"><i class="bi bi-camera-video"></i></div>
-                    <div>
-                      <h4 class="title"><a href="service-details.html" class="stretched-link">วิดีโอการเรียนการสอน</a>
-                      </h4>
-                      <p class="description">สามารถดูวิดีโอการเรียนการสอนแบบไม่จำกัดอายุ
-                        ดูซ้ำได้ไม่อั้น เรียนเมื่อไหร่ก็ได้ ไม่มีหมดอายุ!</p>
-                    </div>
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/1-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.1 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m1-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/1-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.1 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m1-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/2-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.2 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m2-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/2-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.2 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m2-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/3-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.3 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m3-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m1">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/3-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.3 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m3-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/4-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.4 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m4-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/4-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.4 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m4-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/5-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.5 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m5-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/5-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.5 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m5-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/6-1.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.6 เทอม 1</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m6-1.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-m4">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/6-2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>ม.6 เทอม 2</h4>
+                  <p>
+                    <span
+                      style="color: #d6d6d6; text-decoration-line: line-through; text-decoration-color: red; text-decoration-thickness: 2px;">
+                      ฿999
+                    </span>
+                    <span style="color: #ffffff; font-weight: bold; margin-left: 8px; font-size: 18px;">฿599</span>
+                  </p>
+                  <a href="m6-2.html" title="More Details" class="icon-center">
+                    <i class="bi bi-cart-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+      <section id="promotion" class="promotion section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>โปรโมชั่นแบบเหมาๆ คุ้มๆ!</h2>
+          <p class="shop1">จ่ายครั้งเดียว ใช้ได้ตลอดชีพ ไม่ต้องห่วงเรื่องหมดอายุ! 🔥
+            เหมาทั้งคอร์สแบบจัดเต็ม เรียนได้ไม่อั้น ไม่จำกัดเวลาเรียน คุ้มกว่านี้ไม่มีอีกแล้ว!</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+            <ul class="promotion-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter="*" class="filter-active">ทั้งหมด</li>
+            </ul><!-- End Promotion Filters -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-app">
+                <div class="promotion-content h-100">
+                  <img src="assets/img/portfolio/promotion/1.png" class="img-1" alt="">
+                  <div class="promotion-info">
+                    <h4>1</h4>
+                    <p>฿399</p>
+                    <a href="61-64.html" title="More Details" class="icon-center">
+                      <i class="bi bi-cart-plus"></i>
+                    </a>
                   </div>
-                  <!-- End Service Item -->
-
-                  <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon flex-shrink-0"><i class="bi bi-file-earmark-pdf"></i></div>
-                    <div>
-                      <h4 class="title"><a href="service-details.html" class="stretched-link">เอกสารประกอบการเรียน</a>
-                      </h4>
-                      <p class="description">สามารถเลือกรูปแบบเอกสารประกอบการเรียนได้รูปแบบไฟล์ PDF หรือ รูปเล่มเอกสาร
-                      </p>
-                    </div>
-                  </div><!-- End Service Item -->
-
-                  <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon flex-shrink-0"><i class="bi bi-hand-thumbs-up"></i></div>
-                    <div>
-                      <h4 class="title"><a href="service-details.html"
-                          class="stretched-link">บริการหลังการขายที่ดียอดเยี่ยม!</a></h4>
-                      <p class="description">ไม่ใช่แค่คอร์สเรียนคุณภาพ!
-                        เราพร้อมดูแลคุณด้วยบริการหลังการขายที่ยอดเยี่ยม ให้คำปรึกษา ตอบทุกคำถาม
-                        แนะนำทุกขั้นตอนอย่างใกล้ชิด
-                      </p>
-                    </div>
-                  </div><!-- End Service Item -->
                 </div>
+              </div><!-- End Promotion Item -->
+
+              <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-product">
+                <div class="promotion-content h-100">
+                  <img src="assets/img/portfolio/promotion/2.png" class="img-1" alt="">
+                  <div class="promotion-info">
+                    <h4>2</h4>
+                    <p>฿259</p>
+                    <a href="61-64.html" title="More Details" class="icon-center">
+                      <i class="bi bi-cart-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- End Promotion Item -->
+
+              <div class="col-lg-4 col-md-6 promotion-item isotope-item filter-branding">
+                <div class="promotion-content h-100">
+                  <img src="assets/img/portfolio/promotion/3.png" class="img-1" alt="">
+                  <div class="promotion-info">
+                    <h4>3</h4>
+                    <p>฿259</p>
+                    <a href="61-64.html" title="More Details" class="icon-center">
+                      <i class="bi bi-cart-plus"></i>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- End Promotion Item -->
+
+            </div><!-- End Promotion Container -->
+
+          </div>
+
+        </div>
+      </section>
+
+      <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>สมัครเรียนได้อะไรบ้าง ?</h2>
+          <p class="shop1">สอนเนื้อหากระชับ ใช้ภาษาเข้าใจง่าย
+            สามารถนำองค์ความรู้ไปประยุกต์ใช้ในการเรียนการสอบได้จริง !
+            ได้รับทั้ง VDO การสอนและไฟล์ PDF สามารถนำไปทบทวนซ้ำได้ตลอดชีวิต ไม่มีวันหมดอายุคอร์ส เรียนจบ
+            มั่นใจได้ว่าความรู้แน่น พร้อมนำไปต่อยอดทันที!</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon flex-shrink-0"><i class="bi bi-camera-video"></i></div>
+              <div>
+                <h4 class="title"><a class="stretched-link">วิดีโอการเรียนการสอน</a>
+                </h4>
+                <p class="description">สามารถดูวิดีโอการเรียนการสอนแบบไม่จำกัดอายุ
+                  ดูซ้ำได้ไม่อั้น เรียนเมื่อไหร่ก็ได้ ไม่มีหมดอายุ!</p>
               </div>
-            </section><!-- /Services Section -->
-        </div><!-- End Portfolio Container -->
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon flex-shrink-0"><i class="bi bi-file-earmark-pdf"></i></div>
+              <div>
+                <h4 class="title"><a class="stretched-link">เอกสารประกอบการเรียน</a>
+                </h4>
+                <p class="description">สามารถเลือกรูปแบบเอกสารประกอบการเรียนได้รูปแบบไฟล์ PDF หรือ รูปเล่มเอกสาร
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon flex-shrink-0"><i class="bi bi-hand-thumbs-up"></i></div>
+              <div>
+                <h4 class="title"><a class="stretched-link">บริการหลังการขายที่ดียอดเยี่ยม!</a></h4>
+                <p class="description">ไม่ใช่แค่คอร์สเรียนคุณภาพ!
+                  เราพร้อมดูแลคุณด้วยบริการหลังการขายที่ยอดเยี่ยม ให้คำปรึกษา ตอบทุกคำถาม
+                  แนะนำทุกขั้นตอนอย่างใกล้ชิด
+                </p>
+              </div>
+            </div><!-- End Service Item -->
+          </div>
+        </div>
+      </section><!-- /Services Section -->
+      </div><!-- End Portfolio Container -->
 
       </div>
 
@@ -937,8 +929,9 @@
 
               <p class="description">
                 สมัครคอร์สเรียนได้โดยตรงผ่านเพจ Facebook<br>
-                <a href="line.html" style="color: blue;">ครูหนาม BioSpine</a> หรือ
-                <a href="line.html" style="color: blue;">ครูหนาม SciSpine</a><br>
+                <a href="https://www.facebook.com/AlizBiotutor" style="color: blue;">ครูหนาม BioSpine</a> หรือ
+                <a href="https://www.facebook.com/profile.php?id=61568300747966" style="color: blue;">ครูหนาม
+                  SciSpine</a><br>
                 มีแอดมินให้บริการ ให้คำแนะนำ พร้อมช่วยเลือกคอร์สที่เหมาะกับเป้าหมายและพื้นฐานของน้องๆ
               </p>
 
@@ -977,111 +970,124 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="swiper init-swiper1">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 1
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+        <!-- เริ่มจากเพิ่ม Swiper CSS และ JS (ถ้ายังไม่ได้เพิ่ม) -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-            <div class="swiper-slide1">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
+        <style>
+          .testimonial-item {
+            max-width: 280px;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+          }
 
-            <div class="swiper-slide1">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum
-                    velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
+          .testimonial-img {
+            width: 100px;
+            /* ปรับขนาดรูปตามต้องการ */
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            /* ทำให้รูปเป็นวงกลม */
+            margin: 0 auto;
+            display: block;
+          }
 
-            <div class="swiper-slide1">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
-                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
+          .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
 
-            <div class="swiper-slide1">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim
-                    duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
+          .swiper-wrapper {
+            gap: 12px;
+          }
+        </style>
 
-            <div class="swiper-slide1">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt
-                    culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+        <section id="testimonials" class="testimonials section light-background">
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/review/review1.png" class="testimonial-img" alt="Saul Goodman">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/review/review2.png" class="testimonial-img" alt="Sara Wilsson">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/review/review3.png" class="testimonial-img" alt="Jena Karlis">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Matt Brandon">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="John Larson">
+                  </div>
+                </div>
+
               </div>
-            </div><!-- End testimonial item -->
+              <div class="swiper-pagination"></div>
+            </div>
 
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
+        </section>
+
+        <script>
+          const swiper = new Swiper('.mySwiper', {
+            loop: true,
+            speed: 600,
+            autoplay: {
+              delay: 1000,
+              disableOnInteraction: false,
+            },
+            slidesPerView: 3,
+            spaceBetween: 20,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            breakpoints: {
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+              },
+              992: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              }
+            }
+          });
+        </script>
+
+
+      </div>
       </div>
 
     </section><!-- /Testimonials Section -->
-
+    <div>
+      <p class="reviewend">***** ขอบคุณทุกคำรีวิวจากใจครับ/ค่ะ เราดีใจที่คอร์สของเราช่วยให้การเรียนของน้องๆ
+        ดีขึ้นและเรายังไม่หยุดพัฒนาแน่นอน! *****</p>
+    </div>
 
     </section><!-- /Stats Section -->
 
@@ -1096,8 +1102,7 @@
         <div class="row gy-4">
           <div class="col-lg-3 col-md-6">
             <div class="support-item">
-              <a href="https://www.facebook.com/messages/t/339894976687273?locale=th_TH" target="_blank"
-                rel="noopener noreferrer">
+              <a href="https://www.facebook.com/AlizBiotutor" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-facebook" style="color: #1877F2; font-size: 32px;"></i>
               </a>
               <p><strong>ครูหนาม BioSpine</strong><br> <span>Biospine By ครูหนาม</span></p>
@@ -1106,12 +1111,11 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="support-item">
-              <a href="https://www.facebook.com/profile.php?id=61568300747966" target="_blank"
-                rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@biospine" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-tiktok" style="color: #000000; font-size: 32px;"></i>
               </a>
               </a>
-              <p><strong>ครูหนาม SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
+              <p><strong>Biospine</strong><br> <span>Biospine by ครูหนาม</span></p>
             </div>
           </div><!-- End Support Item -->
           <div class="col-lg-3 col-md-6">
@@ -1126,22 +1130,20 @@
           </div><!-- End Support Item -->
           <div class="col-lg-3 col-md-6">
             <div class="support-item">
-              <a href="https://www.facebook.com/profile.php?id=61568300747966" target="_blank"
-                rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@scispine" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-tiktok" style="color: #000000; font-size: 32px;"></i>
               </a>
               </a>
-              <p><strong>ครูหนาม SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
+              <p><strong>SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
             </div>
           </div><!-- End Support Item -->
           <div class="col-lg-3 col-md-6">
             <div class="support-item">
-              <a href="https://www.facebook.com/profile.php?id=61568300747966" target="_blank"
-                rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@.scispine" target="_blank" rel="noopener noreferrer">
                 <i class="bi bi-tiktok" style="color: #000000; font-size: 32px;"></i>
               </a>
               </a>
-              <p><strong>ครูหนาม SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
+              <p><strong>.SciSpine ครูหนามติววิทย์ประถม</strong><br> <span>SciSpine by ครูหนาม</span></p>
             </div>
           </div><!-- End Support Item -->
 
@@ -1150,7 +1152,7 @@
               <a href="#" data-bs-toggle="modal" data-bs-target="#youtubeModal">
                 <i class="bi bi-youtube" style="color: #FF0000; font-size: 32px;"></i>
               </a>
-              <p><strong>ครูหนาม SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
+              <p><strong>ครูหนาม Spine</strong><br> <span>Spine by ครูหนาม</span></p>
             </div>
           </div>
 
@@ -1181,7 +1183,7 @@
               <a href="#" data-bs-toggle="modal" data-bs-target="#instagrammodel">
                 <i class="bi bi-instagram" style="color: #C13584; font-size: 32px;"></i>
               </a>
-              <p><strong>ครูหนาม SciSpine</strong><br> <span>SciSpine by ครูหนาม</span></p>
+              <p><strong>krunam.spine</strong><br> <span>Instagram</span></p>
             </div>
           </div>
 
@@ -1195,8 +1197,9 @@
                 </div>
                 <div class="modal-body">
                   <p>กดปุ่มด้านล่างเพื่อไปยัง Instagram ของเรา</p>
-                  <a href="https://www.youtube.com/@sarochaeiam1910" target="_blank" class="btn px-4 rounded-pill"
-                    style="background-color: #C13584; border-color: #C13584; color: white;">
+                  <a href="https://www.instagram.com/krunam.spine?igsh=MXB3NWY2bzhnM2Nrdg==" target="_blank"
+                    class="btn px-4 rounded-pill"
+                    style="background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); border: none; color: white;">
                     ไปที่ Instagram
                   </a>
                 </div>
@@ -1206,6 +1209,7 @@
               </div>
             </div>
           </div>
+
 
 
           <div class="col-lg-3 col-md-6">
