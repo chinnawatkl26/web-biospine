@@ -1791,7 +1791,7 @@ h4 {
   box-shadow: 0 1px 6px rgba(32,33,36,0.28);
   
   /* กำหนดความกว้างตายตัว */
-  width: 18ch;          /* กว้างพอสำหรับข้อความ "ครูหนาม Spine . . ." */
+  width: 14ch;          /* กว้างพอสำหรับข้อความ "ครูหนาม Spine . . ." */
   max-width: 90vw;      /* กันกรณีจอเล็กมาก */
   
   white-space: nowrap;
@@ -1833,7 +1833,7 @@ h4 {
 
 .loading-bar {
   width: 60%;
-  height: 8px;
+  height: 5px;
   background: #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
@@ -1861,6 +1861,74 @@ h4 {
   font-size: 20px;
 }
 
+.testimonial-item {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* ป้องกันภาพล้นขอบ */
+  border-radius: 12px; /* หรือเอาออกถ้าไม่ต้องการโค้ง */
+}
+
+.testimonial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ให้ภาพครอบกล่องพอดี */
+  border-radius: 0;
+  display: block;
+}
 
 
 
+/* สำหรับโปรโมชั่น */
+:root {
+  --facebook-color: #1877F2;
+  --facebook-hover-color: #145dbf;
+}
+
+.btn-facebook {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: var(--facebook-color);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-facebook i {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background-color: var(--facebook-hover-color);
+  box-shadow: 0 0 8px rgba(20, 93, 191, 0.6);
+  color: white;
+  text-decoration: none;
+}
+
+.promotion-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* หรือปรับตามต้องการ */
+}
+
+
+
+/* ถ้าจะให้ข้อความเปลี่ยนได้จากตัวแปร ต้องใช้ ::after แต่ข้อความจริงๆแก้ยากเพราะเป็น text node */
+/* วิธีง่ายๆ แนะนำแก้ข้อความใน HTML เลย */
+
+/* แต่ถ้าจะทำแบบ dynamic จาก CSS เท่านั้น (ไม่แนะนำ) */
+/* .btn-facebook::after {
+  content: var(--facebook-text);
+} */
