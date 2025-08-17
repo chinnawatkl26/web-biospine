@@ -150,7 +150,7 @@
         filter: filter,
         sortBy: sort,
         masonry: {
-          originLeft: true  // ✅ สำคัญมาก ใส่ตรงนี้เท่านั้น
+          originRight: true
         }
       });
     });
